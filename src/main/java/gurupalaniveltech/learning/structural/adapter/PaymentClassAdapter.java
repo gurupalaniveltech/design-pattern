@@ -12,7 +12,7 @@ public class PaymentClassAdapter extends PaymentServiceV2 implements Payment {
 		// Call existing process method to handle payment and potentially legacy data
 		String jsonData = data;
 		if ("XML".equalsIgnoreCase(type)) {
-			jsonData = conversion(data);
+			jsonData = converter(data);
 		}
 		
 		// Call latest version
@@ -20,11 +20,13 @@ public class PaymentClassAdapter extends PaymentServiceV2 implements Payment {
 
 	}
 
-	private String conversion(String xmlData) {
+	/**
+	 *  data xml to json 
+	 *  */
+	private String converter(String xmlData) {
 		String jsonData = xmlData;
-		// TODO - data xml to json
 		return jsonData;
-
 	}
+
 
 }
