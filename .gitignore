@@ -22,3 +22,34 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+*.settings
+*.classpath
+*.project
+
+# IDE/Build tool specific files
+# (adjust based on your IDE or build tool)
+**/target/
+**/pom.xml.lock
+**/.idea/
+**/.gradle/
+**/build/
+
+# OS specific temporary files
+# (adjust based on your OS)
+# *.tmp
+# *.bak
+# *.swp
+
+# Windows
+*.dll
+*.exe
+*.ilk
+*.pdb
+
+# Tests (uncomment if using a test framework)
+# **/test/
+**/test-output/
+
+# IDE/Build tool downloaded dependencies (uncomment if managing dependencies separately)
+#**/lib/
