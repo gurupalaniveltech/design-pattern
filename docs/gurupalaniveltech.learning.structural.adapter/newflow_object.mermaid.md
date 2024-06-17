@@ -1,9 +1,10 @@
 classDiagram
- note "Current Flow of our existing app"
+ note "New Flow using Object Adapter"
 
 class PatternTest { 
 + void main(String[])$
 }
+
 
 class LegacyBank  { 
     <<Client>>
@@ -16,11 +17,22 @@ class Payment {
 + void makePayment(String,String)
 }
 
-class PaymentServiceV1 { 
-    <<Adaptee>>
+class PaymentServiceV2 { 
+       <<Adaptee>>
 + void makePayment(String,String)
+}
+
+class PaymentObjectAdapter { 
+     <<Adapter>>
+-paymentServiceV2: PaymentServiceV2
++ void makePayment(String,String)
+- String converter(xmlData: String)
 }
 
 
 Payment .. LegacyBank
-Payment <|.. PaymentServiceV1 : implements
+Payment <|.. PaymentObjectAdapter : implements
+Payment <|.. PaymentServiceV2 : implements
+PaymentObjectAdapter --> "1" PaymentServiceV2 : paymentServiceV2
+
+
