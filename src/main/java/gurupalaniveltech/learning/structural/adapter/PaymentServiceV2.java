@@ -6,8 +6,8 @@ package gurupalaniveltech.learning.structural.adapter;
 /**
  * PaymentServiceV2
  */
-public class PaymentServiceV2 implements Payment{
-	public void makePayment(String data, String type)  {
+public class PaymentServiceV2{
+	public void makeJSONPayment(String data, String type)  {
 		if ("JSON".equalsIgnoreCase(type)) {
 			System.out.println("Processing json payment Data ");
 		} else {

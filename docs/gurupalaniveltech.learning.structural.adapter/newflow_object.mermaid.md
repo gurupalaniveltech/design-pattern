@@ -25,14 +25,13 @@ class PaymentServiceV2 {
 class PaymentObjectAdapter { 
      <<Adapter>>
 -paymentServiceV2: PaymentServiceV2
-+ void makePayment(String,String)
++ void makeJSONPayment(String,String)
 - String converter(xmlData: String)
 }
 
 
 Payment .. LegacyBank
 Payment <|.. PaymentObjectAdapter : implements
-Payment <|.. PaymentServiceV2 : implements
 PaymentObjectAdapter --> "1" PaymentServiceV2 : paymentServiceV2
 
 

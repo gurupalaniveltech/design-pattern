@@ -18,7 +18,7 @@ public class PaymentObjectAdapter implements Payment {
 		}
 
 		// Call latest version
-		paymentServiceV2.makePayment(jsonData, "JSON");
+		paymentServiceV2.makeJSONPayment(jsonData, "JSON");
 
 	}
 

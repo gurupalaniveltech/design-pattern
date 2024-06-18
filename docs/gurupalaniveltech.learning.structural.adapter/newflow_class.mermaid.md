@@ -18,7 +18,7 @@ class Payment {
 
 class PaymentServiceV2 { 
        <<Adaptee>>
-+ void makePayment(String,String)
++ void makeJSONPayment(String,String)
 }
 
 class PaymentClassAdapter { 
@@ -27,7 +27,7 @@ class PaymentClassAdapter {
 - String converter(xmlData: String)
 }
 
-Payment <|.. PaymentServiceV2 : implements
+
 Payment <|.. PaymentClassAdapter : implements
 PaymentServiceV2 <|-- PaymentClassAdapter : extends
 Payment .. LegacyBank

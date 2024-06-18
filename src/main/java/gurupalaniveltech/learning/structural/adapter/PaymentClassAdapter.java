@@ -16,7 +16,7 @@ public class PaymentClassAdapter extends PaymentServiceV2 implements Payment {
 		}
 		
 		// Call latest version
-		super.makePayment(jsonData, "JSON");
+		super.makeJSONPayment(jsonData, "JSON");
 
 	}
 
