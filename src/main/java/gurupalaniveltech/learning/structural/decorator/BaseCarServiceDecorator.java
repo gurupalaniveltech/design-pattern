@@ -7,7 +7,7 @@ package gurupalaniveltech.learning.structural.decorator;
  * BaseCarServiceDecorator.
  */
 public abstract class BaseCarServiceDecorator implements ICarService {
-	public ICarService carService;
+	public ICarService carService; // wrapped component
 
 	public BaseCarServiceDecorator(ICarService carService) {
 		this.carService = carService;

@@ -1,6 +1,7 @@
 classDiagram
  note "Current Flow "
-class CarOwner { 
+class CarOwner {
+    <<Client>>
 + void service(ICarService)
 }
 class ICarService { 
@@ -17,3 +18,4 @@ class PatternTest {
 
 ICarService .. CarOwner
 ICarService <|.. CarService : implements
+
