@@ -1,5 +1,5 @@
 classDiagram
- note "Decarator Design Pattern "
+ note "Decorator Design Pattern "
 class CarOwner {
     <<Client>>
 + void service(ICarService)
