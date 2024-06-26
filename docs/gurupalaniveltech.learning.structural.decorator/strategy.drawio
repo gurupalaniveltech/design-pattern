@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2024-06-26T04:41:03.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xcV0qgkC_P-sM0GYZT5n" version="24.6.3" type="github">
+  <diagram name="Page-1" id="l5qk0gMw7gFuL1HKVTr_">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EXKI7uxj9aETM6JI-BED-1" value="&lt;&lt;interface&gt;&gt;&#xa;TripStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=48;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="385" y="363" width="112" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EXKI7uxj9aETM6JI-BED-1" vertex="1">
+          <mxGeometry y="48" width="112" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-3" value="+void travel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="EXKI7uxj9aETM6JI-BED-1" vertex="1">
+          <mxGeometry y="56" width="112" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-4" value="PatternTest" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="517" width="158" height="66.2" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EXKI7uxj9aETM6JI-BED-4" vertex="1">
+          <mxGeometry y="29.2" width="158" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-6" value="+void main(String[])" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="EXKI7uxj9aETM6JI-BED-4" vertex="1">
+          <mxGeometry y="37.2" width="158" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-11" value="LongTripStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="273" y="536" width="141" height="66.2" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-12" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EXKI7uxj9aETM6JI-BED-11" vertex="1">
+          <mxGeometry y="29.2" width="141" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-13" value="+void travel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="EXKI7uxj9aETM6JI-BED-11" vertex="1">
+          <mxGeometry y="37.2" width="141" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-14" value="ShortTripStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="465" y="536" width="146" height="66.2" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EXKI7uxj9aETM6JI-BED-14" vertex="1">
+          <mxGeometry y="29.2" width="146" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-16" value="+void travel()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="EXKI7uxj9aETM6JI-BED-14" vertex="1">
+          <mxGeometry y="37.2" width="146" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-17" value="Strategy Design Pattern " style="align=left;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="260" y="230" width="184" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-18" value="tripStrategy" style="curved=1;startArrow=none;endArrow=open;endSize=12;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;exitX=0.985;exitY=1.038;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lOaPmL5iXISQwbRItPva-2" target="EXKI7uxj9aETM6JI-BED-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="277.0799999999999" y="406.0025714285716" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-19" value="1" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" parent="EXKI7uxj9aETM6JI-BED-18" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-20" value="implements" style="curved=1;dashed=1;startArrow=block;startSize=16;startFill=0;endArrow=none;exitX=0;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" parent="1" source="EXKI7uxj9aETM6JI-BED-1" target="EXKI7uxj9aETM6JI-BED-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="344" y="502" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EXKI7uxj9aETM6JI-BED-21" value="implements" style="curved=1;dashed=1;startArrow=block;startSize=16;startFill=0;endArrow=none;exitX=1;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" parent="1" source="EXKI7uxj9aETM6JI-BED-1" target="EXKI7uxj9aETM6JI-BED-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="502" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOaPmL5iXISQwbRItPva-1" value="TripContext" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=29.75;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="343.13" width="250" height="127.75" as="geometry" />
+        </mxCell>
+        <mxCell id="lOaPmL5iXISQwbRItPva-2" value="- tripStrategy: TripStrategy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lOaPmL5iXISQwbRItPva-1">
+          <mxGeometry y="29.75" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lOaPmL5iXISQwbRItPva-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="lOaPmL5iXISQwbRItPva-1">
+          <mxGeometry y="59.75" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lOaPmL5iXISQwbRItPva-4" value="+void setTripStrategy(TripStrategy)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lOaPmL5iXISQwbRItPva-1">
+          <mxGeometry y="67.75" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lOaPmL5iXISQwbRItPva-5" value="+void executeMyTrip()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lOaPmL5iXISQwbRItPva-1">
+          <mxGeometry y="97.75" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
